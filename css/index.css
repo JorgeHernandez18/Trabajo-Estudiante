@@ -62,21 +62,22 @@ li a {
 
 .empleo {
     width: 100%;
-    padding: 3rem 0;
-    background-color: gray;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #E9E9E9;
 }
 
 .article {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     text-align: center;
     width: 80%;
-    margin: auto 0;
-    display: grid;
-    grid-column: 3;
+    margin: 0 auto;
     gap: 16px;
 }
 
 .span {
-    margin: auto 0;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,9 +87,43 @@ li a {
     background-color: blue;
 }
 
+.span-color_1 {
+    background-color: yellow;
+}
+
+.span-color_2 {
+    background-color: red;
+}
+
 .icon {
     font-size: 3.75rem;
     line-height: 1;
     color: white;
-    
 }
+
+.d-empleo {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.footer {
+    color: white;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-color {
+    color: white;
+}
+
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
